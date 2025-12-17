@@ -9,8 +9,8 @@ on:
 env:
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-  BACKEND_IMAGE: muhammadowais11/sampletest-backend
-  FRONTEND_IMAGE: muhammadowais11/sampletest-frontend
+  BACKEND_IMAGE: abdulrehman1318/finallabexamdevops-backend
+  FRONTEND_IMAGE: abdulrehman1318/finallabexamdevops-frontend
 
 jobs:
   # ==================== STAGE 1: BUILD & TEST BACKEND ====================
@@ -189,8 +189,8 @@ jobs:
       - name: Pull Latest Images
         run: |
           echo "Pulling latest Docker images..."
-          docker pull muhammadowais11/sampletest-backend:latest
-          docker pull muhammadowais11/sampletest-frontend:latest
+          docker pull abdulrehman1318/finallabexamdevops-backend:latest
+          docker pull abdulrehman1318/finallabexamdevops-frontend:latest
       
       - name: Deploy with Docker Compose
         env:

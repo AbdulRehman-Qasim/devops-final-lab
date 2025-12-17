@@ -444,8 +444,8 @@ kubectl describe secret app-secrets -n devops-app
 
 **Check if images exist:**
 ```powershell
-docker pull muhammadowais11/sampletest-backend:latest
-docker pull muhammadowais11/sampletest-frontend:latest
+docker pull abdulrehman1318/sampletest-backend:latest
+docker pull abdulrehman1318/sampletest-frontend:latest
 ```
 
 **If fail, push images again:**
@@ -495,8 +495,8 @@ Task C1: Kubernetes Manifests
    - Node Size: Standard_B2s
 
 ✅ Deployed Containerized Application
-   - Backend Image: muhammadowais11/sampletest-backend:latest
-   - Frontend Image: muhammadowais11/sampletest-frontend:latest
+   - Backend Image: abdulrehman1318/sampletest-backend:latest
+   - Frontend Image: abdulrehman1318/sampletest-frontend:latest
    - Namespace: devops-app
    - Replicas: 2 per service
 

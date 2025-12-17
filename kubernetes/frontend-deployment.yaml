@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: muhammadowais11/sampletest-frontend:latest
+        image: abdulrehman1318/finallabexamdevops-frontend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80

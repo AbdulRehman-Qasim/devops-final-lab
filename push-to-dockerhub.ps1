@@ -7,9 +7,9 @@ Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 
 # Configuration
-$DOCKER_USERNAME = "muhammadowais11"
-$BACKEND_IMAGE = "$DOCKER_USERNAME/sampletest-backend"
-$FRONTEND_IMAGE = "$DOCKER_USERNAME/sampletest-frontend"
+$DOCKER_USERNAME = "abdulrehman1318"
+$BACKEND_IMAGE = "$DOCKER_USERNAME/finallabexamdevops-backend"
+$FRONTEND_IMAGE = "$DOCKER_USERNAME/finallabexamdevops-frontend"
 
 # Step 1: Build Backend Image
 Write-Host "Step 1: Building Backend Image..." -ForegroundColor Yellow
