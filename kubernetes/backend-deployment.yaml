@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: abdulrehman1318/sampletest-backend:latest
+        image: abdulrehman1318/finallabexamdevops-backend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
