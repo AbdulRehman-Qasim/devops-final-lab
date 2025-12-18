@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Testim Tests
         env:
-          TESTIM_TOKEN: ${{ secrets.TESTIM_TOKEN }}
+          TESTIM_TOKEN: ${{ secrets.TESTIM_API_KEY }}
           TESTIM_PROJECT: ${{ secrets.TESTIM_PROJECT_ID }}
         run: |
           testim --token "$TESTIM_TOKEN" --project "$TESTIM_PROJECT" --grid "Testim-Grid"
